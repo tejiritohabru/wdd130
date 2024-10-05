@@ -1,24 +1,43 @@
+:root {
+    --heading-background-color: #f06;
+    --heading-text-color: #333;
+    --heading-font: 'montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgba(0,0,0,0.1);
+}
+/* vaiables were used as ver in this example*/
+h1 {
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+}
+aside {
+    margin: 10px auto;
+    padding: var(--padding);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
 }
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 h1 {
-    color: steelblue;
+    color: var(--heading-text-color);
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
+    border: var(--border);
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 0;
+    padding: var(--padding);
 }
 main {
     max-width: 840px;
@@ -26,10 +45,10 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    border: var(--border);
+    padding: var(--padding);
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
     text-align: center;
 }
 aside img {
@@ -42,6 +61,6 @@ main img {
 }
 footer {
     margin-top: 15px;
-    border: 1px solid #000;
+    border: var(--border);
     text-align: center;
 }

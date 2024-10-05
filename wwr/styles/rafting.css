@@ -1,0 +1,66 @@
+:root {
+    --heading-background-color: #f06;
+    --heading-text-color: #333;
+    --heading-font: 'montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgba(0,0,0,0.1);
+}
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2em;
+    color: black;
+    background: white;
+}
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid black;
+	max-width: 1000px;
+}
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2em; /* 1.2em*/
+    color: black;
+    background: white;
+}
+header {
+	margin: 1rem auto 0;
+	display: flex;
+    grid-template-columns: 1fr 1fr 2fr;
+	align-items: flex;
+    padding: 10px;
+	max-width: 1500px;
+    color: darkgreen;
+    font-size: 0.8em;
+    grid-gap: 1000px;
+    float: right;
+}
