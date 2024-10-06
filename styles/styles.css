@@ -51,7 +51,7 @@ aside {
     color: var(--heading-text-color);
     text-align: center;
 }
-aside img {
+aside img { 
     width: 200px;
     height: auto;
 }
