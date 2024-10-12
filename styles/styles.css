@@ -1,5 +1,5 @@
 :root {
-    --heading-background-color: #f06;
+    --heading-background-color: #87ceeb;
     --heading-text-color: #333;
     --heading-font: 'montserrat', Helvetica, sans-serif;
     --padding: 1rem;
@@ -7,27 +7,43 @@
 }
 /* vaiables were used as ver in this example*/
 h1 {
-    background-color: var(--heading-background-color);
+    border: 1px solid wheat;
     color: var(--heading-text-color);
     font-family: var(--heading-font);
     padding: var(--padding);
 }
-aside {
-    margin: 10px auto;
-    padding: var(--padding);
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
+.grid {
+    display: grid;
+    align-items: center;
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+/*aside {
+    position: relative;
+    width: 20rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}*/
 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: var(--heading-background-color);
     padding: var(--padding);
 }
 nav a {
-    color: var(--heading-text-color);
+    color: #fff;
     display: block;
-    padding: var(--padding);
-}
-h1 {
-    color: var(--heading-text-color);
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 img {
     width: 150px;
@@ -39,9 +55,7 @@ img {
 p {
     padding: var(--padding);
 }
-main {
-    max-width: 840px;
-}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -50,6 +64,9 @@ aside {
     background-color: var(--heading-background-color);
     color: var(--heading-text-color);
     text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside img { 
     width: 200px;

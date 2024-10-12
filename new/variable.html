@@ -1,0 +1,155 @@
+--heading-font: 'Arvo', serif;
+  --font-2: Lora, 'Time New Roman', serif;
+  --paragraph-font: 'Roboto Slab', sans-serif;
+  --heading-background: #5f503c;
+  --heading-color: #0443b3;
+  --color-white: #fff;
+  --hover-color: #5f503c;
+  --trans-color: rgba(196 207 207 / 0.7);
+  --trans-text-color: #04040c;
+  --footer-background: #3e3e3e;
+  --secondary-color: #0443b3;
+  --accent-2: #afaf60;
+  --accent-3: #5f503c;
+}
+/****  This rule is a wildcard that get applied to everything   ******/
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+/*******************************************************************
+*
+*               Default HTML TAG settings
+*
+********************************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+h1,
+h2 {
+  font-family: var(--font-2);
+  padding: 0.5em;
+  margin: 0;
+}
+h3,
+h4 {
+  padding: 10px;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  text-align: left;
+}
+a {
+  /* This turns of all underlines on teh links by default */
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+/*******************************************************
+*
+*              Content Defaults
+*       This is where you place all the class names
+*       that are used on all pages. For example a hero
+*       image and the content can be the same and placed
+*       in this area.
+*
+********************************************************/
+body {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  background-color: #c1f7f7;
+  font-family: var(--paragraph-font);
+}
+header, main, footer {
+   max-width: 1024px;
+   margin: 0 auto;
+}
+/*This is the default grid layout used on all pages. */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+|
+/*******************************************************
+*
+*              Header Area
+*
+********************************************************/
+header {}
+.logo {}
+nav {}
+nav a {}
+nav a:hover {}
+/*******************************************************
+*
+*              Footer Area
+*
+*******************************************************/
+footer {}
+.footer-p {}
+.footer-menu {}
+.footermenu:hover {}
+.sociallinks {}
+
+/*******************************************************
+*
+*              Homepage only CSS
+*
+*******************************************************/
+
+
+/*******************************************************
+*
+*              Rules for Trips Page only
+*
+*******************************************************/
+
+
+/*******************************************************
+*
+*              Rules for About Us Page only
+*
+*******************************************************/
+
+/*******************************************************
+*
+*              Rules for Contact Us page
+*
+*******************************************************/
+  This is the HTML for the Footer so you can see what the rules are used for.
+Plain Text
+<footer>
+      <p class="footer-p">©2024 🏝 Wave Quest Adventures 🌎 Donald Polidor</p>
+      <a class="footer-menu" href=" ">Contact Wireframe</a>
+      <nav class="sociallinks">
+            <a href="https://facebook.com/" target="_blank">
+                 <img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank">
+                 <img src="images/Twitter.webp" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank">
+                 <img src="images/instagram.png" alt="Instagram"></a> 
+      </nav>
+</footer>
+ 
+
+
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>

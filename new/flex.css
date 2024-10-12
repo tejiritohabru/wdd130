@@ -1,0 +1,27 @@
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* when i used display flex all the container were put in the same row
+and they became the same size, and they can contain any device
+be it mobile phones, pc and ios*/
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+}
