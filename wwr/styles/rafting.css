@@ -152,3 +152,7 @@ footer {
 .sociallinks {
     text-align: end;
 }
+.sociallinks img {
+    width: 65px;
+    height: 65px;
+}
