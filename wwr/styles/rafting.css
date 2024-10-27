@@ -82,6 +82,33 @@ article {
     color: var(--accent-3);
     text-align: left;
 }
+.navigation3 a {
+    position: absolute;
+    top: 900px;
+    right: 1000px;
+    padding: 10px;
+	text-decoration: solid;
+    margin: 10px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--accent-2);
+    color: #fdfdfd; 
+    border-radius: 10px;
+}
+.nile {
+    position: absolute;
+    top: 460px;
+    right: 800px;
+    text-align: center;
+    background-color: #000;
+    margin: 27px;
+}
+.nile h2 {
+    color: white;
+    font-size: 5em;
+}
+.nile p {
+    color: #708090;
+}
 p {
     font-family: 'Allan';
     font-size: 1.2em;
@@ -134,14 +161,309 @@ figure {
     text-align: right;
     right: 20px;
 }
+.newslatter h3{
+    text-align: center;
+    font-size: 2rem;
+    color: darkblue;
+}
+.newslatter p {
+    text-align: center;
+    right: 300px;
+}
+form {
+    width: 600px;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: grid;
+    background-color: darkkhaki;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    border: none;
+}
+label, input, button {
+    font-family: var(--paragraph-font);
+}
+label {
+    padding-right: 1rem;
+}
+input {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button {
+    margin: 1rem;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+.form {
+    position: absolute;
+    top: 1358px;
+    right: 120px;
+}
+.form h2 {
+    font-size: 2.2em;
+    color: darkblue;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column {
+    grid-template-columns: 2fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 30px;
+    padding: 10px;
+    margin: 70px;
+}
+.grid-item {
+    background-color: bisque;
+    padding: 20px;
+    color: black;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-gap: 30px;
+    padding: 10px;
+    margin: 70px;
+    background-color: coral;
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-gap: 30px;
+    padding: 10px;
+    margin: 70px;
+    background-color: orange;
+}
+.navigation2 a {
+    position: absolute;
+    top: 2050px;
+    right: 790px;
+    padding: 10px;
+	text-decoration: solid;
+    margin: 10px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--accent-2);
+    color: #fdfdfd; 
+    border-radius: 10px;
+}
+h4 {
+    color: white;
+    font-size: 1.8rem;
+}
+.offerings {
+    position: absolute;
+    top: 2749px;
+    right: 250px;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+}
+.offerings h4 {
+    color: orangered;
+}
+.purposes {
+    position: absolute;
+    top: 2350px;
+    right: 290px;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+}
+.purposes h4 {
+    color: orangered;
+}
+.trips h2{
+    position: absolute;
+    top: 800px;
+    right: 400px;
+    color: #ffffff;
+    font-size: 2rem;
+	border-bottom: 1px solid var(--secondary-color);
+    background: darkslategrey;
+    border: var(--border);
+	padding: 15px;
+    width: 500px;
+}
+.vation p{
+    display: grid;
+    text-align: center;
+    padding: 100px;
+	border-bottom: 3px black;
+    background: whitesmoke;
+    border: 5px;
+}
+.navigation2, .navigation3 navigation4, .navigation5, .navigation6, .navigation7, .navigation8, .navigation9 {
+    display: flex;
+    list-style: none;
+}
+.navigation4 a {
+    display: grid;
+    position: absolute;
+    top: 1200px;
+    right: 400px;
+    padding: 15px;
+    width: 500px;
+	text-decoration: solid;
+    border: 1px solid var(--secondary-color);
+    background-color: darkmagenta;
+    color: #fdfdfd; 
+}
+.udu p {
+    display: grid;
+    position: absolute;
+    top: 1400px;
+    right: 1000px;
+
+}
+.udu2 p {
+    display: grid;
+    position: absolute;
+    top: 1400px;
+    right: 600px;
+
+}
+.udu3 p {
+    display: grid;
+    position: absolute;
+    top: 1400px;
+    right: 230px;
+ 
+}
+.udu4 p {
+    display: grid;
+    position: absolute;
+    top: 1850px;
+    right: 800px;
+
+}
+.udu5 p {
+    display: grid;
+    position: absolute;
+    top: 1850px;
+    right: 400px;
+  
+}
+.navigation5 a {
+    display: grid;
+    position: absolute;
+    top: 1720px;
+    right: 990px;
+    padding: 15px;
+	text-decoration: solid;
+    background-color: darkmagenta;
+    color: #fdfdfd; 
+}
+.navigation6 a {
+    display: grid;
+    position: absolute;
+    top: 1720px;
+    right: 620px;
+    padding: 15px;
+	text-decoration: solid;
+    background-color: darkmagenta;
+    color: #fdfdfd; 
+}
+.navigation7 a {
+    display: grid;
+    position: absolute;
+    top: 1720px;
+    right: 250px;
+    padding: 15px;
+	text-decoration: solid;
+    background-color: darkmagenta;
+    color: #fdfdfd; 
+}
+.navigation8 a {
+    display: grid;
+    position: absolute;
+    top: 2160px;
+    right: 830px;
+    padding: 15px;
+	text-decoration: solid;
+    background-color: darkmagenta;
+    color: #fdfdfd; 
+}
+.navigation9 a {
+    display: grid;
+    position: absolute;
+    top: 2160px;
+    right: 450px;
+    padding: 15px;
+	text-decoration: solid;
+    background-color: darkmagenta;
+    color: #fdfdfd; 
+}
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 30px;
+    padding: 10px;
+    margin: 70px;
+}
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 30px;
+    padding: 10px;
+    margin: 70px;
+    justify-content: center;
+}
+.grid-item4 {
+    padding: 20px;
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+thead,
+tfoot {
+    background-color:darkgreen;
+    color: white;
+}
+th, td {
+    border: 1px solid rgb(160, 160, 160);
+    padding: 8px 10px;
+}
+td :last-of-type {
+    text-align: center;
+}
+tbody > tr :nth-of-type(even) {
+    background-color: white;
+}
+tfoot th {
+    text-align: right;
+}
+tfoot td {
+    font-weight: bold;
+}
 footer {
     text-align: center;
     border: 1px solid #000;
     margin-top: 15px;
-    background-color: slategray;
+    background-color: black;
     align-items: flex-end;
     text-decoration: none;
-    color: var(--accent-3);
+    color: #ffffff;
 }
 .footer-p {
     text-align: center;
